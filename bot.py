@@ -101,7 +101,7 @@ async def feedback_received(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # === Главная функция ===
 async def main():
     await init_db()
-    app = ApplicationBuilder().token("7756995593:AAG7nFvBbQg1tJ2lE1M8QunJx-70r58FpNI").build()
+    app = ApplicationBuilder().token("7756995593:AAFgw0HL_gR52VZSN0HWWIQ6xesiOMvR2fo").build()
 
     conv = ConversationHandler(
         entry_points=[CommandHandler("start", start)],
